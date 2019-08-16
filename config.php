@@ -4,7 +4,8 @@
           'categories'        => array( 'Fashion' ),
           'preview_url'     => 'http://demo.wpoperation.com/opstore-pro/fashionv1/',
           'xml_file'        => 'content.xml',
-          'theme_settings'  => 'options.dat',
+          'theme_settings'  => 'customizer.dat',
+          'theme_options'   => 'options.txt',
           'widgets_file'    => 'widgets.wie',
           'slider_file'   => 'slider.ss3',
           'home_title'      => 'Home',
@@ -28,11 +29,6 @@
                 'name'    => 'Elementor',
               ),
               array(
-                'slug'    => 'wpop-elementor-addons',
-                'init'    => 'wpop-elementor-addons/wpop-elementor-addons.php',
-                'name'    => 'Operation Elementor Addons',
-              ),
-              array(
                 'slug'    => 'contact-form-7',
                 'init'    => 'contact-form-7/wp-contact-form-7.php',
                 'name'    => 'Contact Form 7',
@@ -41,11 +37,6 @@
                 'slug'    => 'smart-slider-3',
                 'init'    => 'smart-slider-3/smart-slider-3.php',
                 'name'    => 'Smart Slider',
-              ),
-              array(
-                'slug'    => 'ajax-login-and-registration-modal-popup',
-                'init'    => 'ajax-login-and-registration-modal-popup/ajax-login-and-registration-modal-popup.php',
-                'name'    => 'Ajax Login popup',
               ),
               array(
                 'slug'    => 'yith-woocommerce-wishlist',
@@ -73,6 +64,11 @@
                 'slug'    => 'sale-alert',
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
+              ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
               ),
               
             ),
@@ -82,7 +78,8 @@
           'categories'        => array( 'Fashion' ),
           'preview_url'     => 'http://demo.wpoperation.com/opstore-pro/fashionv2/',
           'xml_file'        => 'content.xml',
-          'theme_settings'  => 'options.dat',
+          'theme_settings'  => 'customizer.dat',
+          'theme_options' => 'options.txt',
           'widgets_file'    => 'widgets.wie',
           'slider_file'   => 'slider.ss3',
           'home_title'      => 'Home',
@@ -106,11 +103,6 @@
                 'name'    => 'Elementor',
               ),
               array(
-                'slug'    => 'wpop-elementor-addons',
-                'init'    => 'wpop-elementor-addons/wpop-elementor-addons.php',
-                'name'    => 'Operation Elementor Addons',
-              ),
-              array(
                 'slug'    => 'contact-form-7',
                 'init'    => 'contact-form-7/wp-contact-form-7.php',
                 'name'    => 'Contact Form 7',
@@ -119,11 +111,6 @@
                 'slug'    => 'smart-slider-3',
                 'init'    => 'smart-slider-3/smart-slider-3.php',
                 'name'    => 'Smart Slider',
-              ),
-              array(
-                'slug'    => 'ajax-login-and-registration-modal-popup',
-                'init'    => 'ajax-login-and-registration-modal-popup/ajax-login-and-registration-modal-popup.php',
-                'name'    => 'Ajax Login popup',
               ),
               array(
                 'slug'    => 'yith-woocommerce-wishlist',
@@ -146,13 +133,26 @@
                 'name'    => 'Mailpoet',
               ),
             ),
+            'premium' => array(
+              array(
+                'slug'    => 'sale-alert',
+                'init'    => 'sale-alert/sale-alert.php',
+                'name'    => 'Sale Alert(Pro)',
+              ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
+              ),
+            ),
           ),
         ),
         'electronics' => array(
           'categories'        => array( 'Electronics' ),
           'preview_url'     => 'http://demo.wpoperation.com/opstore-pro/electronics/',
           'xml_file'        => 'content.xml',
-          'theme_settings'  => 'options.dat',
+          'theme_settings'  => 'customizer.dat',
+          'theme_options' => 'options.txt',
           'widgets_file'    => 'widgets.wie',
           'home_title'      => 'Home',
           'blog_title'      => 'Blogs',
@@ -175,24 +175,9 @@
                 'name'    => 'Elementor',
               ),
               array(
-                'slug'    => 'wpop-elementor-addons',
-                'init'    => 'wpop-elementor-addons/wpop-elementor-addons.php',
-                'name'    => 'Operation Elementor Addons',
-              ),
-              array(
-                'slug'    => 'salert',
-                'init'    => 'salert/salert.php',
-                'name'    => 'Salert',
-              ),
-              array(
                 'slug'    => 'contact-form-7',
                 'init'    => 'contact-form-7/wp-contact-form-7.php',
                 'name'    => 'Contact Form 7',
-              ),
-              array(
-                'slug'    => 'ajax-login-and-registration-modal-popup',
-                'init'    => 'ajax-login-and-registration-modal-popup/ajax-login-and-registration-modal-popup.php',
-                'name'    => 'Ajax Login popup',
               ),
               array(
                 'slug'    => 'yith-woocommerce-wishlist',
@@ -221,7 +206,11 @@
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
               ),
-              
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
+              ),
             ),
           ),
         ),
@@ -229,7 +218,8 @@
           'categories'        => array( 'Jewelry' ),
           'preview_url'     => 'http://demo.wpoperation.com/opstore-pro/jewelry/',
           'xml_file'        => 'content.xml',
-          'theme_settings'  => 'options.dat',
+          'theme_settings'  => 'customizer.dat',
+          'theme_options'  => 'options.txt',
           'widgets_file'    => 'widgets.wie',
           'slider_file'   => 'slider.ss3',
           'home_title'      => 'Home',
@@ -253,16 +243,6 @@
                 'name'    => 'Elementor',
               ),
               array(
-                'slug'    => 'wpop-elementor-addons',
-                'init'    => 'wpop-elementor-addons/wpop-elementor-addons.php',
-                'name'    => 'Operation Elementor Addons',
-              ),
-              array(
-                'slug'    => 'salert',
-                'init'    => 'salert/salert.php',
-                'name'    => 'Salert',
-              ),
-              array(
                 'slug'    => 'contact-form-7',
                 'init'    => 'contact-form-7/wp-contact-form-7.php',
                 'name'    => 'Contact Form 7',
@@ -271,11 +251,6 @@
                 'slug'    => 'smart-slider-3',
                 'init'    => 'smart-slider-3/smart-slider-3.php',
                 'name'    => 'Smart Slider',
-              ),
-              array(
-                'slug'    => 'ajax-login-and-registration-modal-popup',
-                'init'    => 'ajax-login-and-registration-modal-popup/ajax-login-and-registration-modal-popup.php',
-                'name'    => 'Ajax Login popup',
               ),
               array(
                 'slug'    => 'yith-woocommerce-wishlist',
@@ -303,6 +278,11 @@
                 'slug'    => 'sale-alert',
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
+              ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
               ),
               
             ),
@@ -312,7 +292,8 @@
           'categories'        => array( 'Cosmetics' ),
           'preview_url'     => 'http://demo.wpoperation.com/opstore-pro/cosmetics/',
           'xml_file'        => 'content.xml',
-          'theme_settings'  => 'options.dat',
+          'theme_settings'  => 'customizer.dat',
+          'theme_options'   => 'options.txt',
           'widgets_file'    => 'widgets.wie',
           'slider_file'   => 'slider.ss3',
           'home_title'      => 'Home',
@@ -336,16 +317,6 @@
                 'name'    => 'Elementor',
               ),
               array(
-                'slug'    => 'wpop-elementor-addons',
-                'init'    => 'wpop-elementor-addons/wpop-elementor-addons.php',
-                'name'    => 'Operation Elementor Addons',
-              ),
-              array(
-                'slug'    => 'salert',
-                'init'    => 'salert/salert.php',
-                'name'    => 'Salert',
-              ),
-              array(
                 'slug'    => 'contact-form-7',
                 'init'    => 'contact-form-7/wp-contact-form-7.php',
                 'name'    => 'Contact Form 7',
@@ -354,11 +325,6 @@
                 'slug'    => 'smart-slider-3',
                 'init'    => 'smart-slider-3/smart-slider-3.php',
                 'name'    => 'Smart Slider',
-              ),
-              array(
-                'slug'    => 'ajax-login-and-registration-modal-popup',
-                'init'    => 'ajax-login-and-registration-modal-popup/ajax-login-and-registration-modal-popup.php',
-                'name'    => 'Ajax Login popup',
               ),
               array(
                 'slug'    => 'yith-woocommerce-wishlist',
@@ -386,6 +352,11 @@
                 'slug'    => 'sale-alert',
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
+              ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
               ),
               
             ),
@@ -395,7 +366,8 @@
           'categories'        => array( 'Shoes' ),
           'preview_url'     => 'http://demo.wpoperation.com/opstore-pro/shoes/',
           'xml_file'        => 'content.xml',
-          'theme_settings'  => 'options.dat',
+          'theme_settings'  => 'customizer.dat',
+          'theme_options'   => 'options.txt',
           'widgets_file'    => 'widgets.wie',
           'slider_file'   => 'slider.ss3',
           'home_title'      => 'Home',
@@ -419,16 +391,6 @@
                 'name'    => 'Elementor',
               ),
               array(
-                'slug'    => 'wpop-elementor-addons',
-                'init'    => 'wpop-elementor-addons/wpop-elementor-addons.php',
-                'name'    => 'Operation Elementor Addons',
-              ),
-              array(
-                'slug'    => 'salert',
-                'init'    => 'salert/salert.php',
-                'name'    => 'Salert',
-              ),
-              array(
                 'slug'    => 'contact-form-7',
                 'init'    => 'contact-form-7/wp-contact-form-7.php',
                 'name'    => 'Contact Form 7',
@@ -437,11 +399,6 @@
                 'slug'    => 'smart-slider-3',
                 'init'    => 'smart-slider-3/smart-slider-3.php',
                 'name'    => 'Smart Slider',
-              ),
-              array(
-                'slug'    => 'ajax-login-and-registration-modal-popup',
-                'init'    => 'ajax-login-and-registration-modal-popup/ajax-login-and-registration-modal-popup.php',
-                'name'    => 'Ajax Login popup',
               ),
               array(
                 'slug'    => 'yith-woocommerce-wishlist',
@@ -469,6 +426,11 @@
                 'slug'    => 'sale-alert',
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
+              ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
               ),
               
             ),
@@ -478,7 +440,8 @@
           'categories'        => array( 'Watches' ),
           'preview_url'     => 'http://demo.wpoperation.com/opstore-pro/watches/',
           'xml_file'        => 'content.xml',
-          'theme_settings'  => 'options.dat',
+          'theme_settings'  => 'customizer.dat',
+          'theme_options'   => 'options.txt',
           'widgets_file'    => 'widgets.wie',
           'slider_file'   => 'slider.ss3',
           'home_title'      => 'Home',
@@ -502,16 +465,6 @@
                 'name'    => 'Elementor',
               ),
               array(
-                'slug'    => 'wpop-elementor-addons',
-                'init'    => 'wpop-elementor-addons/wpop-elementor-addons.php',
-                'name'    => 'Operation Elementor Addons',
-              ),
-              array(
-                'slug'    => 'salert',
-                'init'    => 'salert/salert.php',
-                'name'    => 'Salert',
-              ),
-              array(
                 'slug'    => 'contact-form-7',
                 'init'    => 'contact-form-7/wp-contact-form-7.php',
                 'name'    => 'Contact Form 7',
@@ -520,11 +473,6 @@
                 'slug'    => 'smart-slider-3',
                 'init'    => 'smart-slider-3/smart-slider-3.php',
                 'name'    => 'Smart Slider',
-              ),
-              array(
-                'slug'    => 'ajax-login-and-registration-modal-popup',
-                'init'    => 'ajax-login-and-registration-modal-popup/ajax-login-and-registration-modal-popup.php',
-                'name'    => 'Ajax Login popup',
               ),
               array(
                 'slug'    => 'yith-woocommerce-wishlist',
@@ -553,6 +501,11 @@
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
               ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
+              ),
               
             ),
           ),
@@ -561,7 +514,8 @@
           'categories'        => array( 'Furniture' ),
           'preview_url'     => 'http://demo.wpoperation.com/opstore-pro/furniture/',
           'xml_file'        => 'content.xml',
-          'theme_settings'  => 'options.dat',
+          'theme_settings'  => 'customizer.dat',
+          'theme_options'   => 'options.txt',
           'widgets_file'    => 'widgets.wie',
           'slider_file'   => 'slider.ss3',
           'home_title'      => 'Home 2',
@@ -585,16 +539,6 @@
                 'name'    => 'Elementor',
               ),
               array(
-                'slug'    => 'wpop-elementor-addons',
-                'init'    => 'wpop-elementor-addons/wpop-elementor-addons.php',
-                'name'    => 'Operation Elementor Addons',
-              ),
-              array(
-                'slug'    => 'salert',
-                'init'    => 'salert/salert.php',
-                'name'    => 'Salert',
-              ),
-              array(
                 'slug'    => 'contact-form-7',
                 'init'    => 'contact-form-7/wp-contact-form-7.php',
                 'name'    => 'Contact Form 7',
@@ -603,11 +547,6 @@
                 'slug'    => 'smart-slider-3',
                 'init'    => 'smart-slider-3/smart-slider-3.php',
                 'name'    => 'Smart Slider',
-              ),
-              array(
-                'slug'    => 'ajax-login-and-registration-modal-popup',
-                'init'    => 'ajax-login-and-registration-modal-popup/ajax-login-and-registration-modal-popup.php',
-                'name'    => 'Ajax Login popup',
               ),
               array(
                 'slug'    => 'yith-woocommerce-wishlist',
@@ -636,6 +575,11 @@
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
               ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
+              ),
               
             ),
           ),
@@ -644,9 +588,9 @@
           'categories'        => array( 'Parallax' ),
           'preview_url'     => 'http://demo.wpoperation.com/opstore-pro/watches/',
           'xml_file'        => 'content.xml',
-          'theme_settings'  => 'options.dat',
+          'theme_settings'  => 'customizer.dat',
+          'theme_options'   => 'options.txt',
           'widgets_file'    => 'widgets.wie',
-          'slider_file'   => 'slider.ss3',
           'home_title'      => 'Home',
           'blog_title'      => 'Blogs',
           'posts_to_show'   => '10',
@@ -668,29 +612,9 @@
                 'name'    => 'Elementor',
               ),
               array(
-                'slug'    => 'wpop-elementor-addons',
-                'init'    => 'wpop-elementor-addons/wpop-elementor-addons.php',
-                'name'    => 'Operation Elementor Addons',
-              ),
-              array(
-                'slug'    => 'salert',
-                'init'    => 'salert/salert.php',
-                'name'    => 'Salert',
-              ),
-              array(
                 'slug'    => 'contact-form-7',
                 'init'    => 'contact-form-7/wp-contact-form-7.php',
                 'name'    => 'Contact Form 7',
-              ),
-              array(
-                'slug'    => 'smart-slider-3',
-                'init'    => 'smart-slider-3/smart-slider-3.php',
-                'name'    => 'Smart Slider',
-              ),
-              array(
-                'slug'    => 'ajax-login-and-registration-modal-popup',
-                'init'    => 'ajax-login-and-registration-modal-popup/ajax-login-and-registration-modal-popup.php',
-                'name'    => 'Ajax Login popup',
               ),
               array(
                 'slug'    => 'yith-woocommerce-wishlist',
@@ -719,6 +643,11 @@
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
               ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
+              ),
               
             ),
           ),
@@ -727,9 +656,9 @@
           'categories'        => array( 'Bike' ),
           'preview_url'     => 'http://demo.wpoperation.com/opstore-pro/bike/',
           'xml_file'        => 'content.xml',
-          'theme_settings'  => 'options.dat',
+          'theme_settings'  => 'customizer.dat',
+          'theme_options'   => 'options.txt',
           'widgets_file'    => 'widgets.wie',
-          'slider_file'   => 'slider.ss3',
           'home_title'      => 'Home',
           'blog_title'      => 'Blog',
           'posts_to_show'   => '10',
@@ -751,29 +680,9 @@
                 'name'    => 'Elementor',
               ),
               array(
-                'slug'    => 'wpop-elementor-addons',
-                'init'    => 'wpop-elementor-addons/wpop-elementor-addons.php',
-                'name'    => 'Operation Elementor Addons',
-              ),
-              array(
-                'slug'    => 'salert',
-                'init'    => 'salert/salert.php',
-                'name'    => 'Salert',
-              ),
-              array(
                 'slug'    => 'contact-form-7',
                 'init'    => 'contact-form-7/wp-contact-form-7.php',
                 'name'    => 'Contact Form 7',
-              ),
-              array(
-                'slug'    => 'smart-slider-3',
-                'init'    => 'smart-slider-3/smart-slider-3.php',
-                'name'    => 'Smart Slider',
-              ),
-              array(
-                'slug'    => 'ajax-login-and-registration-modal-popup',
-                'init'    => 'ajax-login-and-registration-modal-popup/ajax-login-and-registration-modal-popup.php',
-                'name'    => 'Ajax Login popup',
               ),
               array(
                 'slug'    => 'yith-woocommerce-wishlist',
@@ -801,6 +710,11 @@
                 'slug'    => 'sale-alert',
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
+              ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
               ),
               
             ),
