@@ -163,6 +163,7 @@
           'theme_settings'  => 'customizer.dat',
           'theme_options' => 'options.txt',
           'widgets_file'    => 'widgets.wie',
+          'slider_file'   => 'slider.ss3',
           'home_title'      => 'Home',
           'blog_title'      => 'Blogs',
           'posts_to_show'   => '10',
