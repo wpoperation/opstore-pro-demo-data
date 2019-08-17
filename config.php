@@ -19,6 +19,16 @@
           'required_plugins'  => array(
             'free' => array(
               array(
+                'slug'    => 'cs-framework',
+                'init'    => 'cs-framework/cs-framework.php',
+                'name'    => 'Cs Framework',
+              ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
+              ),
+              array(
                 'slug'    => 'woocommerce',
                 'init'    => 'woocommerce/woocommerce.php',
                 'name'    => 'WooCommerce',
@@ -64,13 +74,7 @@
                 'slug'    => 'sale-alert',
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
-              ),
-              array(
-                'slug'    => 'wpop-elementor-addons-pro',
-                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
-                'name'    => 'WPOP Elementor Addons(Pro)',
-              ),
-              
+              ), 
             ),
           ),
         ),
@@ -93,6 +97,16 @@
           'required_plugins'  => array(
             'free' => array(
               array(
+                'slug'    => 'cs-framework',
+                'init'    => 'cs-framework/cs-framework.php',
+                'name'    => 'Cs Framework',
+              ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
+              ),
+              array(
                 'slug'    => 'woocommerce',
                 'init'    => 'woocommerce/woocommerce.php',
                 'name'    => 'WooCommerce',
@@ -139,11 +153,6 @@
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
               ),
-              array(
-                'slug'    => 'wpop-elementor-addons-pro',
-                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
-                'name'    => 'WPOP Elementor Addons(Pro)',
-              ),
             ),
           ),
         ),
@@ -165,6 +174,16 @@
           'required_plugins'  => array(
             'free' => array(
               array(
+                'slug'    => 'cs-framework',
+                'init'    => 'cs-framework/cs-framework.php',
+                'name'    => 'Cs Framework',
+              ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
+              ),
+              array(
                 'slug'    => 'woocommerce',
                 'init'    => 'woocommerce/woocommerce.php',
                 'name'    => 'WooCommerce',
@@ -173,6 +192,11 @@
                 'slug'    => 'elementor',
                 'init'    => 'elementor/elementor.php',
                 'name'    => 'Elementor',
+              ),
+              array(
+                'slug'    => 'smart-slider-3',
+                'init'    => 'smart-slider-3/smart-slider-3.php',
+                'name'    => 'Smart Slider',
               ),
               array(
                 'slug'    => 'contact-form-7',
@@ -205,11 +229,6 @@
                 'slug'    => 'sale-alert',
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
-              ),
-              array(
-                'slug'    => 'wpop-elementor-addons-pro',
-                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
-                'name'    => 'WPOP Elementor Addons(Pro)',
               ),
             ),
           ),
@@ -233,6 +252,16 @@
           'required_plugins'  => array(
             'free' => array(
               array(
+                'slug'    => 'cs-framework',
+                'init'    => 'cs-framework/cs-framework.php',
+                'name'    => 'Cs Framework',
+              ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
+              ),
+              array(
                 'slug'    => 'woocommerce',
                 'init'    => 'woocommerce/woocommerce.php',
                 'name'    => 'WooCommerce',
@@ -279,12 +308,6 @@
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
               ),
-              array(
-                'slug'    => 'wpop-elementor-addons-pro',
-                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
-                'name'    => 'WPOP Elementor Addons(Pro)',
-              ),
-              
             ),
           ),
         ),
@@ -307,6 +330,16 @@
           'required_plugins'  => array(
             'free' => array(
               array(
+                'slug'    => 'cs-framework',
+                'init'    => 'cs-framework/cs-framework.php',
+                'name'    => 'Cs Framework',
+              ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
+              ),
+              array(
                 'slug'    => 'woocommerce',
                 'init'    => 'woocommerce/woocommerce.php',
                 'name'    => 'WooCommerce',
@@ -353,12 +386,6 @@
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
               ),
-              array(
-                'slug'    => 'wpop-elementor-addons-pro',
-                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
-                'name'    => 'WPOP Elementor Addons(Pro)',
-              ),
-              
             ),
           ),
         ),
@@ -381,6 +408,16 @@
           'required_plugins'  => array(
             'free' => array(
               array(
+                'slug'    => 'cs-framework',
+                'init'    => 'cs-framework/cs-framework.php',
+                'name'    => 'Cs Framework',
+              ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
+              ),
+              array(
                 'slug'    => 'woocommerce',
                 'init'    => 'woocommerce/woocommerce.php',
                 'name'    => 'WooCommerce',
@@ -427,12 +464,6 @@
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
               ),
-              array(
-                'slug'    => 'wpop-elementor-addons-pro',
-                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
-                'name'    => 'WPOP Elementor Addons(Pro)',
-              ),
-              
             ),
           ),
         ),
@@ -455,6 +486,16 @@
           'required_plugins'  => array(
             'free' => array(
               array(
+                'slug'    => 'cs-framework',
+                'init'    => 'cs-framework/cs-framework.php',
+                'name'    => 'Cs Framework',
+              ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
+              ),
+              array(
                 'slug'    => 'woocommerce',
                 'init'    => 'woocommerce/woocommerce.php',
                 'name'    => 'WooCommerce',
@@ -501,12 +542,6 @@
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
               ),
-              array(
-                'slug'    => 'wpop-elementor-addons-pro',
-                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
-                'name'    => 'WPOP Elementor Addons(Pro)',
-              ),
-              
             ),
           ),
         ),
@@ -529,6 +564,16 @@
           'required_plugins'  => array(
             'free' => array(
               array(
+                'slug'    => 'cs-framework',
+                'init'    => 'cs-framework/cs-framework.php',
+                'name'    => 'Cs Framework',
+              ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
+              ),
+              array(
                 'slug'    => 'woocommerce',
                 'init'    => 'woocommerce/woocommerce.php',
                 'name'    => 'WooCommerce',
@@ -575,12 +620,6 @@
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
               ),
-              array(
-                'slug'    => 'wpop-elementor-addons-pro',
-                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
-                'name'    => 'WPOP Elementor Addons(Pro)',
-              ),
-              
             ),
           ),
         ),
@@ -602,6 +641,16 @@
           'required_plugins'  => array(
             'free' => array(
               array(
+                'slug'    => 'cs-framework',
+                'init'    => 'cs-framework/cs-framework.php',
+                'name'    => 'Cs Framework',
+              ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
+              ),
+              array(
                 'slug'    => 'woocommerce',
                 'init'    => 'woocommerce/woocommerce.php',
                 'name'    => 'WooCommerce',
@@ -643,12 +692,6 @@
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
               ),
-              array(
-                'slug'    => 'wpop-elementor-addons-pro',
-                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
-                'name'    => 'WPOP Elementor Addons(Pro)',
-              ),
-              
             ),
           ),
         ),
@@ -670,6 +713,16 @@
           'required_plugins'  => array(
             'free' => array(
               array(
+                'slug'    => 'cs-framework',
+                'init'    => 'cs-framework/cs-framework.php',
+                'name'    => 'Cs Framework',
+              ),
+              array(
+                'slug'    => 'wpop-elementor-addons-pro',
+                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
+                'name'    => 'WPOP Elementor Addons(Pro)',
+              ),
+              array(
                 'slug'    => 'woocommerce',
                 'init'    => 'woocommerce/woocommerce.php',
                 'name'    => 'WooCommerce',
@@ -711,12 +764,6 @@
                 'init'    => 'sale-alert/sale-alert.php',
                 'name'    => 'Sale Alert(Pro)',
               ),
-              array(
-                'slug'    => 'wpop-elementor-addons-pro',
-                'init'    => 'wpop-elementor-addons-pro/wpop-elementor-addons-pro.php',
-                'name'    => 'WPOP Elementor Addons(Pro)',
-              ),
-              
             ),
           ),
         ),
